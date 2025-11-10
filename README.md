@@ -35,6 +35,7 @@ Setup Instructions
 
 3. Download MySQL Connector/J
    - Download from: https://dev.mysql.com/downloads/connector/j/
+   - or use this (mysql-connector-j-8.0.33.zip)
    - Extract and note the path to the .jar file (e.g., mysql-connector-java-8.0.xx.jar).
 
 4. Open Project in IntelliJ IDEA (or any Java IDE)

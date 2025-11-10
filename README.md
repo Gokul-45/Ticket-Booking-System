@@ -19,7 +19,7 @@ Screenshots
 
 ## Demo Video
 
-[Click here to watch the demo](demo.mp4)
+[Watch on Google Drive](https://drive.google.com/your-link)
 
 Requirements
 ------------

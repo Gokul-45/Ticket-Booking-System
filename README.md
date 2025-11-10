@@ -26,7 +26,7 @@ Requirements
 Setup Instructions
 ------------------
 1. Clone or Download the Project
-   - git clone https://github.com/yourusername/your-repo-name.git
+   - git clone https://github.com/Gokul-45/Ticket-Booking-System.git
    - Or download the ZIP and extract.
 
 2. Database Setup
@@ -35,7 +35,7 @@ Setup Instructions
 
 3. Download MySQL Connector/J
    - Download from: https://dev.mysql.com/downloads/connector/j/
-   - or use this (mysql-connector-j-8.0.33.zip)
+   - or use this ![Download](mysql-connector-j-8.0.33.zip)
    - Extract and note the path to the .jar file (e.g., mysql-connector-java-8.0.xx.jar).
 
 4. Open Project in IntelliJ IDEA (or any Java IDE)

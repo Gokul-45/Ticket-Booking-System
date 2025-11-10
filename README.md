@@ -69,11 +69,15 @@ How to Use
 
 Troubleshooting
 ---------------
-- If you get a database connection error, check:
+  - If you get a database connection error, check:
   - MySQL is running.
   - Database and tables are created.
   - Username/password are correct.
   - MySQL Connector/J is added to the project.
+
+Contributing
+------------
+Feel free to fork this repository and submit pull requests or use the code for your own projects.
 
 License
 -------

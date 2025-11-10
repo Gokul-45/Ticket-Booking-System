@@ -12,11 +12,14 @@ Features
 
 Screenshots
 -----------
-![Sample video](screenshots/sample.mp4)
 ![Register](screenshots/register.png)
 ![Admin](screenshots/admin.png)
 ![Book Ticket](screenshots/book_ticket.png)
 ![View Bookings](screenshots/view_bookings.png)
+
+## Demo Video
+
+[Click here to watch the demo](demo.mp4)
 
 Requirements
 ------------

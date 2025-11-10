@@ -12,6 +12,7 @@ Features
 
 Screenshots
 -----------
+![Sample video](screenshots/sample.mp4)
 ![Register](screenshots/register.png)
 ![Admin](screenshots/admin.png)
 ![Book Ticket](screenshots/book_ticket.png)

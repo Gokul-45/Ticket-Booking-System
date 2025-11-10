@@ -1,0 +1,75 @@
+Travelz Ticket Booking System - Thanglish Explanation
+
+Project Overview:
+-----------------
+Ithu oru Java console application. Namma bus, train, flight ticket book panna use pannalaam. 
+Ella data um MySQL database la store aagum. Output la colorum, emoji um use pannirukken.
+
+Main Features:
+--------------
+- User registration & login (password hash use pannirukken, security ku)
+- Ticket book panna (Bus 🚌, Train 🚆, Flight ✈️)
+- Bookings view, search, export (text file la), cancel panna mudiyum
+- Admin panel (users/bookings view, delete)
+- Console la color, emoji output (attractive ah irukkum)
+
+How it works (Flow):
+--------------------
+1. App open pannina, "Welcome to Travelz ticket booking" nu varum (colorful, emoji).
+2. 3 options: Register 👤, Login 🔑, Exit 🚪
+3. Register la name, phone, email, password ketkum. Phone/email unique ah irukkanum.
+4. Login la phone/email + password ketkum. Password hash check pannum.
+5. Login aana, user menu la:
+   - Book Ticket 🏷️
+   - View Bookings 📄 (search, export, cancel option)
+   - Update Profile 📝
+   - Logout 🚪
+6. Book Ticket la:
+   - Type select pannalam (Bus 🚌, Train 🚆, Flight ✈️)
+   - From, To, Date, Seats (max 5) kudukkanum
+   - Oru route/date/type ku 40 seats limit irukkum. Already booked seats count pannum.
+   - Book panna, unique reference number (TRZ...) generate pannum.
+   - Success message la color + emoji varum.
+7. View Bookings la:
+   - Ellam multi-line la, color + emoji oda show pannum.
+   - Search panna (date/type/from/to) filter pannalaam.
+   - Export panna, text file la save aagum.
+   - Cancel panna, booking id kuduthu delete pannalaam.
+8. Update Profile la name, phone, email, password maathalaam.
+9. Admin login (admin@travelz.com, admin123) la:
+   - All users, all bookings view panna, delete panna mudiyum.
+
+Database Structure:
+-------------------
+Database name: travel
+
+Table: users
+- id, name, phone, email, password
+
+Table: bookings
+- id, user_id, type, from_place, to_place, date, seats, booking_ref, booking_date
+
+Technologies Used:
+------------------
+- Java (console application)
+- MySQL (database)
+- JDBC (MySQL Connector/J)
+- ANSI color codes (console color)
+- Emoji (UTF-8 console)
+
+How to Run:
+-----------
+1. MySQL la database.sql file run pannunga (users, bookings table create aagum)
+2. Java la Travelz.java file compile pannunga
+3. MySQL Connector/J jar file project la add pannunga
+4. DB username/password code la maathunga
+5. App run pannunga, enjoy colorful, emoji output!
+
+Extra Notes:
+------------
+- Console la color/emoji support irukka terminal la run pannunga (IntelliJ, Windows 10/11, Mac, Linux)
+- Admin user create panna, register la email: admin@travelz.com, password: admin123 use pannunga
+- Exported bookings file: my_bookings_<userid>.txt nu save aagum
+
+Project la doubt irundha, README.md la steps follow pannunga.  
+All the best! 😊
